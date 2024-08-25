@@ -2,7 +2,14 @@
 # Backend-repo
 https://github.com/parthmehendru/pNotebook-backend
 
-
+# Brief Information
+MERN application designed for managing personal notes. The application allows users to securely
+create, edit, delete, and organize their notes.Frontend is crafted with React, where state management is efficiently
+handled using the Context API.On the backend, Node.js and Express are used to create RESTful APIs. The application
+employs MongoDB for persistent data storage, handling user information and notes. User authentication is
+implemented using JWT, providing token-based authentication for user sessions. Passwords are securely hashed
+using bcrypt before storage, safeguarding user credentials.For input validation, Express Validator is integrated into
+the application, ensuring that data entered by users meets specified criteria before being processed or stored.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
